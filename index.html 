@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="greeting">👋 Hi, I'm Suresh Pun</h1>
+    <p>Cook turned Full Stack Developer</p>
+    <p class="date"></p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm currently studying <strong>Full Stack Development</strong> at <strong>Kood Sisu (2025–)</strong>, 
+      learning programming languages like Go, JavaScript, and TypeScript.  
+      I have a strong professional background in the culinary industry and experience 
+      in IT and business administration.
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <ul>
+      <li><strong>COOK</strong> | HMS Host Finland / Avolta (2022 – 2023, 2024 – Present)<br>Line cook in Nordic Kitchen (Breakfast, Pizza, Cold & Hot Menu)</li>
+      <li><strong>COOK</strong> | StaffPoint / SSP (2023 – 2024)<br>Worked with Wok, Asian Food, Pizza, Fafa’s, and European Food</li>
+      <li><strong>COOK</strong> | StaffPoint (2021 – )<br>À la carte cook, mainly in hot kitchen</li>
+      <li><strong>ALL-ROUNDER</strong> | Fafa’s Kaari & Tripla (2021)</li>
+      <li><strong>COOK</strong> | Attendo (2021)</li>
+      <li><strong>DELIVERY</strong> | Posti (2017)</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Full Stack Developer</strong> | Kood Sisu (2025 – Ongoing)</li>
+      <li><strong>Vocational Qualification in Restaurant & Catering</strong> | Varia (Completed: 2022)</li>
+      <li><strong>Bachelor of Business Information Technology</strong> | Haaga-Helia University (Completed: 2015)</li>
+      <li><strong>Vocational Qualification in Business Administration</strong> | Helsinki Business College (Completed: 2009)</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Go, JavaScript, TypeScript, C#, HTML, CSS, MySQL</li>
+      <li>Linux, Hardware & Networking, Server Environment</li>
+      <li>Photoshop, MS Office</li>
+      <li>English (Fluent), Finnish (Basic)</li>
+      <li>B-Class Driving License</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      📧 Email: punsuresh@hotmail.com<br>
+      💼 LinkedIn: www.linkedin.com/in/suresh-pun<br>
+      🌐 GitHub: https://github.com/sureshpun
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Suresh Pun. Built with ❤️ and GitHub Pages.</p>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="topBtn" title="Go to top">⬆️</button>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

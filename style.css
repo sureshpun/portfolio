@@ -1,0 +1,76 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f5f7fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #e0e0e0;
+}
+
+section {
+  background: white;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #004aad;
+  border-bottom: 2px solid #004aad;
+  padding-bottom: 0.3rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.7rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #004aad;
+  color: white;
+  margin-top: 2rem;
+}
+
+/* Scroll to Top Button */
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#topBtn:hover {
+  background-color: #0068e6;
+}
