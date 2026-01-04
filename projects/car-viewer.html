@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cars Viewer | Suresh Pun</title>
+
+  <link rel="stylesheet" href="../style.css" />
+  <script defer src="../script.js"></script>
+</head>
+
+<body class="dark">
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="../index.html">← Back</a>
+    <button id="themeToggle">🌙</button>
+  </nav>
+
+  <section class="card">
+    <h1>🚗 Cars Viewer Interface</h1>
+
+    <p>
+      This Go-based web application is designed as a <strong>Car Viewer</strong>, allowing users
+      to browse and explore a wide range of cars, from sleek sports models to
+      family-friendly rides.
+    </p>
+
+    <p>
+      Users can filter cars based on various criteria, compare specifications, and
+      access detailed information about each model. The application fetches data from
+      an external API and dynamically displays it using Go web templates.
+    </p>
+
+    <p>
+      The app leverages <strong>Go’s concurrency model</strong> to efficiently handle API requests
+      and manage data.
+    </p>
+
+    <hr />
+
+    <h2>🛠️ Tools Used</h2>
+    <ul>
+      <li>Go (Golang)</li>
+      <li>NPM</li>
+      <li>External Car Data API</li>
+    </ul>
+
+    <hr />
+
+    <hr />
+
+    <h2>🚘 Car Viewing and Comparison</h2>
+    <div class="feature-list">
+      <div class="feature-item">
+        <strong>Filtering Cars:</strong> Use the checkboxes in the filter form to narrow down the list of cars.
+      </div>
+      <div class="feature-item">
+        <strong>Comparing Cars:</strong> Select cars using the "Compare" checkbox and click "Compare Vehicles" to view
+        side-by-side comparisons.
+      </div>
+      <div class="feature-item">
+        <strong>Viewing Car Details:</strong> Click on a car's image or name to view detailed information about that
+        model.
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>🚘 Car Details Displayed</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Car Image</th>
+          <th>Year</th>
+          <th>Model</th>
+          <th>Country</th>
+          <th>Founding Year</th>
+        </tr>
+      </thead>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Engine</th>
+          <th>Horsepower</th>
+          <th>Transmission</th>
+          <th>Drivetrain</th>
+        </tr>
+      </thead>
+    </table>
+
+    <hr />
+
+    <h2>🔍 Filters Available</h2>
+    <div class="filter-list">
+      <div class="filter-item">
+        <span class="tag">Year</span> Select one or multiple years to narrow down the cars shown.
+      </div>
+      <div class="filter-item">
+        <span class="tag">Make/Model</span> Filter cars based on the manufacturer and model.
+      </div>
+      <div class="filter-item">
+        <span class="tag">Body Style</span> Choose the body style, such as sedan, coupe, SUV, etc.
+      </div>
+      <div class="filter-item">
+        <span class="tag">Engine</span> Filter cars by engine type.
+      </div>
+      <div class="filter-item">
+        <span class="tag">Drivetrain</span> Filter cars by drivetrain type (e.g., FWD, AWD, RWD).
+      </div>
+    </div>
+
+    <a href="https://youtu.be/hnNjhv7KtUo" target="_blank">
+      <img src="../pic/car.png" alt="Car Viewer" />
+    </a>
+
+    <p>
+      🎥 <a href="https://youtu.be/hnNjhv7KtUo" target="_blank">
+        Watch full demo on YouTube
+      </a>
+    </p>
+  </section>
+
+</body>
+
+</html>
