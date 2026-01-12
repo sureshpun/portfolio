@@ -35,11 +35,11 @@ if (greeting) {
   const hour = now.getHours();
 
   if (hour < 12) {
-    greeting.textContent = "☀️ Good Morning! I'm Suresh Pun";
+    greeting.innerHTML = "☀️ Good Morning! <br> I'm Suresh Pun";
   } else if (hour < 18) {
-    greeting.textContent = "🌤️ Good Afternoon! I'm Suresh Pun";
+    greeting.innerHTML = "🌤️ Good Afternoon! <br> I'm Suresh Pun";
   } else {
-    greeting.textContent = "🌙 Good Evening! I'm Suresh Pun";
+    greeting.innerHTML = "🌙 Good Evening! <br> I'm Suresh Pun";
   }
 }
 
